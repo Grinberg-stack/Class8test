@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     stages {
-        stage('Hello') {
+        stage('stage1') {
             steps {
                 bat 'python main.py'
                 bat 'echo names.txt'
